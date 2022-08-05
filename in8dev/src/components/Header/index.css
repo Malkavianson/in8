@@ -63,18 +63,18 @@ img.Logo__Content {
 		list-style: none;
 		transform: translateX(80%);
 	}
-	.Navbar li#registered{
+	.Navbar li#registered {
 		position: relative;
 	}
 	.Navbar li#registered,
 	.Navbar li#about {
 		list-style: disc;
-		padding-left: 4rem ;
+		padding-left: 4rem;
 	}
 	.Navbar li#about {
 		transform: translateX(20%);
 	}
-	.Navbar li:hover{
+	.Navbar li:hover {
 		list-style: none;
 		text-decoration: underline;
 	}

@@ -5,7 +5,7 @@ const RegistratedTable = ({ content }) => {
 	const [last, setLast] = useState(1);
 	const [register, setRegister] = useState();
 
-    const registratedData = () =>
+	const registratedData = () =>
 		content.map((e, i) => (
 			<tr
 				id={`${i}`}
@@ -19,7 +19,7 @@ const RegistratedTable = ({ content }) => {
 			</tr>
 		));
 
-        useEffect(() => {
+	useEffect(() => {
 		if (Boolean(content)) {
 			setRegister(registratedData());
 			setLast(content.length + 1);

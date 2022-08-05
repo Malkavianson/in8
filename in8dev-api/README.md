@@ -16,7 +16,6 @@ Este apresenta fundamentos em NestJS e Prisma.
 - **Nest.js** com versão superior ou igual que 8.5.5 - [Nest Download](https://docs.nestjs.com/)
 - **PostgreSQL** com versão superior ou igual que 8.2.6 - [PostgreSQL Download](https://www.postgresql.org/download/)
 
-
 ## Scripts disponíveis
 
 Na pasta raíz do projeto podem ser executados os seguintes comandos:
@@ -41,37 +40,31 @@ npm run start
 npm run dev
 ```
 
-
-
 Para conseguir trabalhar com o banco de dados você deverá criar um arquivo .env e adicionar uma url de conexão com seu Postgres local com a chave DATABASE_URL.
 
 ```
 DATABASE_URL="postgresql://yourUser:0000000@localhost:PORT/database"
 ```
 
-
 Acesse [http://localhost:3333](http://localhost:3333) para visualizá-lo em seu navegador de forma local
 
 ---
->
+
 > ## Autor
 >
->- [Alexandre dos Santos Pereira Neto](https://github.com/Malkavianson)
->
-___
+> - [Alexandre dos Santos Pereira Neto](https://github.com/Malkavianson)
+
+---
+
 ## Licença
 
 - MIT License (MIT)
 
-
 ## Execução
-
 
 ## Funcionalidades
 
 Para acessar a lista de endpoints e funcionalidades da aplicação, acesse nossa documentação do Swagger, lá você poderá testar todas as rotas.
-
-
 
 > ## comandos úteis:
 >

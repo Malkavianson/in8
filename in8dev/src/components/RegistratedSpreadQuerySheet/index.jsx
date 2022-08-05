@@ -46,7 +46,7 @@ const RegistratedSpreadQuerySheet = ({ content }) => {
 			setData(spreadData());
 			setLast(content.length + 1);
 		}
-	// eslint-disable-next-line react-hooks/exhaustive-deps
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [content]);
 	return (
 		<section id='registratedSpreadQuerySheet'>
