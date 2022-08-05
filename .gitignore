@@ -1,0 +1,59 @@
+# compiled output
+./in8dev-api/dist
+./in8dev-api/node_modules
+./in8dev-api/.env
+
+# Logs
+./in8dev-api/logs
+./in8dev-api/*.log
+./in8dev-api/npm-debug.log*
+./in8dev-api/pnpm-debug.log*
+./in8dev-api/yarn-debug.log*
+./in8dev-api/yarn-error.log*
+./in8dev-api/lerna-debug.log*
+
+# OS
+./in8dev-api/.DS_Store
+
+# Tests
+./in8dev-api/coverage
+./in8dev-api/.nyc_output
+
+# IDEs and editors
+./in8dev-api/.idea
+./in8dev-api/.project
+./in8dev-api/.classpath
+./in8dev-api/.c9/
+./in8dev-api/*.launch
+./in8dev-api/.settings/
+./in8dev-api/*.sublime-workspace
+
+# IDE - VSCode
+./in8dev-api/.vscode/*
+./in8dev-api/!.vscode/settings.json
+./in8dev-api/!.vscode/tasks.json
+./in8dev-api/!.vscode/launch.json
+./in8dev-api/!.vscode/extensions.json
+
+# dependencies
+./in8/node_modules
+./in8/.vscode
+./in8/.pnp
+./in8/.pnp.js
+
+# testing
+./in8/coverage
+
+# production
+./in8/build
+
+# misc
+./in8/.DS_Store
+./in8/.env.local
+./in8/.env.development.local
+./in8/.env.test.local
+./in8/.env.production.local
+
+./in8/npm-debug.log*
+./in8/yarn-debug.log*
+./in8/yarn-error.log*
