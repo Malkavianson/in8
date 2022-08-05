@@ -1,0 +1,175 @@
+#Registration__Form {
+	position: relative;
+	color: white;
+	background-color: #29abe2;
+}
+@media (min-width: 1025px) {
+	#Registration__Form {
+		height: 69.25vh;
+	}
+	fieldset[name='Register__Form__Container'] {
+		height: 50%;
+		font-size: 5rem;
+		width: 35%;
+	}
+	fieldset[name='Register__Form__Container'] > fieldset {
+		height: 6.5rem;
+	}
+	fieldset[name='Register__Form__Container'] > fieldset > label,
+	fieldset[name='Register__Form__Container'] > fieldset > input {
+		height: 3rem;
+	}
+	fieldset[name='Register__Form__Container'] > fieldset > label {
+		transform: translateY(-2rem);
+		font-size: 2rem;
+	}
+	fieldset[name='Register__Form__Container'] > fieldset > input {
+		font-size: 3rem;
+	}
+	form#Register__Form__Container > button {
+		width: 25%;
+		max-width: 42rem;
+		height: 10rem;
+		font-size: 5.5rem;
+	}
+	form#Register__Form__Container legend {
+		font-size: 6rem;
+	}
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+	#Registration__Form {
+		height: 51.25vh;
+	}
+	fieldset[name='Register__Form__Container'] {
+		height: 60%;
+		width: 45%;
+		margin-top: 15rem;
+	}
+	fieldset[name='Register__Form__Container'] > fieldset {
+		height: 5rem;
+	}
+	fieldset[name='Register__Form__Container'] > fieldset > label,
+	fieldset[name='Register__Form__Container'] > fieldset > input {
+		height: 2rem;
+	}
+	fieldset[name='Register__Form__Container'] > fieldset > label {
+		transform: translateY(-2rem);
+		font-size: 2rem;
+	}
+	fieldset[name='Register__Form__Container'] > fieldset > input {
+		font-size: 2.5rem;
+	}
+	form#Register__Form__Container > button {
+		width: 28%;
+		height: 9rem;
+		font-size: 5rem;
+		padding: 1rem;
+	}
+	form#Register__Form__Container legend {
+		font-size: 6rem;
+	}
+}
+@media (max-width: 599px) {
+	#Registration__Form {
+		height: 61.25vh;
+	}
+	fieldset[name='Register__Form__Container'] {
+		height: 50%;
+		font-size: 5rem;
+		width: 80%;
+	}
+	fieldset[name='Register__Form__Container'] > fieldset {
+		height: 9.5rem;
+	}
+	form#Register__Form__Container > button {
+		width: 78%;
+		height: 16rem;
+		font-size: 9.5rem;
+		padding: 0.5rem;
+	}
+	form#Register__Form__Container legend {
+		font-size: 9rem;
+	}
+	fieldset[name='Register__Form__Container'] > fieldset > label,
+	fieldset[name='Register__Form__Container'] > fieldset > input {
+		height: 4.5rem;
+	}
+	fieldset[name='Register__Form__Container'] > fieldset > label {
+		transform: translateY(-3rem);
+		font-size: 3.5rem;
+	}
+	fieldset[name='Register__Form__Container'] > fieldset > input {
+		font-size: 4.5rem;
+	}
+}
+form#Register__Form__Container {
+	height: 100%;
+	width: 100%;
+	font-family: 'Helvetica 25 UltraLight Regular', Helvetica, Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+}
+form#Register__Form__Container legend {
+	position: absolute;
+	top: 10%;
+	left: calc(50%);
+	transform: translateX(-50%);
+	z-index: 1;
+	user-select: none;
+}
+fieldset[name='Register__Form__Container'] {
+	display: flex;
+	text-align: center;
+	border: none;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+fieldset[name='Register__Form__Container'] > fieldset {
+	width: 100%;
+	display: flex;
+	border-style: none none solid;
+	border-color: white;
+	border-width: 0.05rem;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	text-align: left;
+}
+fieldset[name='Register__Form__Container'] > fieldset > label,
+fieldset[name='Register__Form__Container'] > fieldset > input {
+	width: 100%;
+	text-align: start;
+	color: white;
+	border-style: none;
+	background-color: #29abe2;
+}
+fieldset[name='Register__Form__Container'] > fieldset > label {
+	font-family: 'Roboto Regular', Helvetica, Arial, sans-serif;
+}
+fieldset[name='Register__Form__Container'] > fieldset > input {
+	font-family: 'Helvetica Condensed Regular', Helvetica, Arial, sans-serif;
+}
+fieldset[name='Register__Form__Container'] > fieldset > input::placeholder {
+	color: white;
+}
+form#Register__Form__Container > button {
+	font-family: 'Helvetica 25 UltraLight Regular', Helvetica, Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 2rem 3rem 8rem 3rem;
+	border: none;
+	background-color: #012d51;
+	color: #29abe2;
+	cursor: pointer;
+	transition: 0.84s;
+}
+form#Register__Form__Container > button:hover {
+	transform: scale(1.01);
+}
+form#Register__Form__Container > button:active {
+	transform: scale(0.99);
+}

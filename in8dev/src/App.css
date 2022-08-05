@@ -1,0 +1,33 @@
+.App {
+	max-width: 100%;
+}
+@media (min-width: 1025px) {
+	.Up__Btn__Hide {
+		transform: translateY(25rem);
+	}
+	.Up__Btn {
+		position: fixed;
+		height: 7rem;
+		aspect-ratio: 1;
+		right: 15rem;
+		bottom: 15rem;
+		transition: 0.84s;
+		cursor: pointer;
+	}
+	.Up__Btn:hover {
+		transform: scale(1.05);
+	}
+	.Up__Btn:active {
+		transform: scale(0.98);
+	}
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+	.Up__Btn {
+		display: none;
+	}
+}
+@media (max-width: 599px) {
+	.Up__Btn {
+		display: none;
+	}
+}

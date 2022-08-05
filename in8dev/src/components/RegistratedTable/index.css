@@ -1,0 +1,128 @@
+@media (min-width: 1025px) {
+	#Registrated__Table__Data {
+		font-size: 2.4rem;
+		max-width: 120rem;
+	}
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+	#Registrated__Table__Data {
+		font-size: 2.2rem;
+		max-width: 80vw;
+	}
+}
+@media (max-width: 599px) {
+	#Registrated__Table__Data {
+		font-size: 2.4rem;
+		max-width: 90vw;
+	}
+}
+
+@media (min-width: 600px) {
+	#Registrated__Table {
+		width: 100%;
+		height: auto;
+		display: flex;
+		align-content: flex-start;
+		align-items: center;
+		flex-direction: column;
+		position: relative;
+	}
+	#Registrated__Table > h2 {
+		padding: 6rem;
+		color: #29abe2;
+		font-family: 'Helvetica 25 UltraLight Regular', Helvetica, Arial, sans-serif;
+		font-weight: lighter;
+		font-size: 6rem;
+		user-select: none;
+	}
+	#Registrated__Table__Data {
+		width: 98%;
+		height: auto;
+		min-height: 45rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 5rem;
+	}
+	thead,
+	tbody,
+	tfoot {
+		width: 100%;
+	}
+	tr {
+		height: 8rem;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+	}
+	th {
+		width: 22%;
+		padding: 1rem 4rem;
+		display: flex;
+		align-items: center;
+		border-color: #29aae2aa;
+		border-width: 0.2rem;
+	}
+	th::-webkit-scrollbar {
+		width: 0.1vh;
+		height: 0.5rem;
+	}
+	th::-webkit-scrollbar-track {
+		background: #29aae200;
+	}
+	th::-webkit-scrollbar-thumb {
+		background-color: #52396100;
+		border-radius: 1.5rem;
+		border: 0.2rem solid #012d5100;
+	}
+	.Registrated__Table__Data__Header {
+		color: #012d51;
+		justify-content: center;
+		align-items: center;
+		border-style: none solid solid none;
+		font-family: 'Roboto Regular', Arial, sans-serif;
+	}
+	.Registrated__Table__Data__Header__End {
+		border-style: none none solid;
+	}
+	.Registrated__Table__Data__Content {
+		border-style: none solid solid none;
+		color: #808080;
+		font-family: 'Helvetica Condensed Regular', Arial, sans-serif;
+		font-weight: lighter;
+		text-align: left;
+	}
+	.Registrated__Table__Data__Content__Number {
+		width: 12%;
+		border-style: none solid solid none;
+		color: #012d51;
+		font-family: 'Roboto Light', Arial, sans-serif;
+		align-items: center;
+		justify-content: center;
+	}
+	.Registrated__Table__Data__Content__Justify {
+		justify-content: center;
+	}
+	.Registrated__Table__Data__Content__Name {
+		overflow-y: overlay;
+		align-items: flex-start;
+	}
+	.Registrated__Table__Data__Content__Mail {
+		overflow-x: overlay;
+	}
+	.Registrated__Table__Data__Content__End {
+		border-style: none none solid;
+	}
+	.Registrated__Table__Data__Footer {
+		border-style: none solid none none;
+	}
+	.Registrated__Table__Data__Footer__End {
+		border-style: none;
+	}
+}
+
+@media (max-width: 599px) {
+	#Registrated__Table {
+		display: none;
+	}
+}

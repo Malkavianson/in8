@@ -1,0 +1,179 @@
+#logo {
+	width: 40%;
+	align-items: center;
+}
+#menu {
+	position: relative;
+}
+#overlay {
+	position: fixed;
+	display: none;
+	z-index: 0;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: #ffffff99;
+	transition: 0.84s;
+}
+img.Logo__Content {
+	max-height: 6rem;
+	cursor: pointer;
+}
+.Navbar li {
+	padding: 3rem 1rem;
+	cursor: pointer;
+}
+
+.Header__Container {
+	top: 0;
+	left: 0;
+	z-index: 2;
+	height: 20rem;
+	width: 100%;
+	font-family: 'Roboto Regular', Arial, Helvetica, sans-serif;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 3rem 2rem rgba(0, 0, 0, 0.1);
+	transition: 0.84s;
+	display: flex;
+}
+.Header__Container {
+	justify-content: space-between;
+}
+.Header__Container > div {
+	height: 90%;
+	display: flex;
+	/* background: white; */
+}
+.Header__Container__Menu {
+	width: 58%;
+}
+@media (min-width: 1025px) {
+	img.Logo__Content {
+		width: 50%;
+	}
+	.Navbar ul {
+		width: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.Navbar li#register {
+		list-style: none;
+		transform: translateX(80%);
+	}
+	.Navbar li#registered{
+		position: relative;
+	}
+	.Navbar li#registered,
+	.Navbar li#about {
+		list-style: disc;
+		padding-left: 4rem ;
+	}
+	.Navbar li#about {
+		transform: translateX(20%);
+	}
+	.Navbar li:hover{
+		list-style: none;
+		text-decoration: underline;
+	}
+	#logo {
+		justify-content: center;
+	}
+	.Header__Container {
+		position: absolute;
+		flex-direction: row;
+		font-size: 3rem;
+	}
+	.Header__Container__Menu__Image {
+		display: none;
+	}
+	.Header__Container__Hide {
+		transform: translateY(-30rem);
+	}
+	.Header__Container__Menu {
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.Navbar {
+		width: 85rem;
+		display: flex;
+	}
+}
+@media (max-width: 1024px) {
+	img.Logo__Content {
+		width: 75%;
+	}
+	.Navbar ul {
+		width: 70%;
+	}
+	.Navbar li {
+		list-style: none;
+	}
+
+	#logo {
+		justify-content: center;
+	}
+	.Header__Container {
+		position: fixed;
+		flex-direction: row-reverse;
+		font-size: 4.5rem;
+	}
+	.Header__Container__Menu__Image {
+		position: absolute;
+		aspect-ratio: 1;
+		z-index: 4;
+		top: 5rem;
+		left: 10rem;
+		transition: 0.84s;
+		background-image: url(../../assets/icons/hamburguer.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+	}
+	.Header__Container__Menu__Image:hover {
+		background-image: url(../../assets/icons/hamburguer-aberto0.svg);
+	}
+	.Header__Container__Hide {
+		background-color: rgba(255, 255, 255, 0);
+		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+	}
+	.Header__Container__Bright {
+		background-color: #80808080;
+		box-shadow: 0 0 0 0 #fff;
+	}
+	.Navbar {
+		width: 100%;
+		height: 65rem;
+		padding: 7rem 1rem;
+		background: #29abe2;
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		align-content: center;
+		justify-content: flex-start;
+		clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+		z-index: 2;
+		transition: 0.84s;
+	}
+	.Header__Container__Menu__Image + .Navbar:hover,
+	.Header__Container__Menu__Image:hover + .Navbar {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	}
+	.Header__Container__Menu__Image + .Navbar:hover + #overlay,
+	.Header__Container__Menu__Image:hover + .Navbar + #overlay {
+		display: block;
+	}
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+	.Header__Container__Menu__Image {
+		height: 35%;
+	}
+}
+@media (orientation: portrait) and (max-width: 599px) {
+	.Header__Container__Menu__Image {
+		height: 50%;
+	}
+}

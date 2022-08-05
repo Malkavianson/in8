@@ -1,0 +1,49 @@
+div#Footer {
+	width: 100%;
+	background-color: #29abe2;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	flex-direction: column;
+	user-select: none;
+}
+div#Footer > h4 {
+	font-family: 'Roboto Light', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	color: white;
+	font-size: 4.5rem;
+}
+@media (min-width: 1025px) {
+	div#Footer {
+		gap: 2.5rem;
+		background-image: url('../../assets/images/rodape-desktop.jpg');
+		aspect-ratio: 5.74;
+	}
+	div#Footer > h4 {
+		font-size: 2.5rem;
+	}
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+	div#Footer {
+		gap: 2.5rem;
+		background-image: url('../../assets/images/rodape-desktop.jpg');
+		aspect-ratio: 3.7;
+		background-position: center;
+	}
+	div#Footer > h4 {
+		font-size: 2.5rem;
+	}
+}
+@media (max-width: 599px) {
+	div#Footer {
+		gap: 5rem;
+		background-image: url('../../assets/images/rodape-mobile.jpg');
+		aspect-ratio: 1.43;
+	}
+	div#Footer > h4 {
+		font-size: 4.5rem;
+	}
+}
