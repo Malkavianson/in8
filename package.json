@@ -1,22 +1,22 @@
 {
-  "name": "in8",
-  "version": "1.0.0",
-  "description": "",
-  "main": "./in8dev/src/index.jsx",
-  "scripts": {
-    "buildApi": "cd in8dev-api && npm i",
-    "buildFront": "cd in8dev && npm i",
-    "startApi": "cd in8dev && npm run start",
-    "startFront": "cd in8dev && npm start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Malkavianson/in8.git"
-  },
-  "author": "malkavianson",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Malkavianson/in8/issues"
-  },
-  "homepage": "https://github.com/Malkavianson/in8#readme"
+	"name": "in8",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./in8dev/src/index.jsx",
+	"scripts": {
+		"buildApi": "cd in8dev-api && npm i && npm run build",
+		"buildFront": "cd in8dev && npm i",
+		"startApi": "cd in8dev-api && node dist/main",
+		"startFront": "cd in8dev && npm start"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Malkavianson/in8.git"
+	},
+	"author": "malkavianson",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Malkavianson/in8/issues"
+	},
+	"homepage": "https://github.com/Malkavianson/in8#readme"
 }
