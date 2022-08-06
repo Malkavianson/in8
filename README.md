@@ -1,5 +1,17 @@
 # Teste de aptidão para a empresa IN8
 
+### Link para aplicação:
+
+#### [IN8 - API](https://in8.onrender.com/)
+#### [IN8DEV - Landing Page](https://in8dev.vercel.app/)
+___
+>
+>> - Peço paciencia ao inicializar a Landing page. 
+>>
+>> Uma vez que a API usa uma plataforma sem custo para sua hospedagem, a mesma acaba por levar um pouco mais de tempo para disponibilizar os dados
+>> Favor aguardar em torno de alguns segundos para a API ser inicializada, ou acessar seu [link](https://in8.onrender.com/) no seu navegador para otimizar sua experiência
+
+
 ### Este repositório foi criado com o intuito de atestagem de aptidão FullStack para a empresa [IN8 - Produtos Digitais](https://in8.com.br)
 
 ## Tecnologias aplicadas
@@ -43,15 +55,15 @@ Na pasta raiz do projeto podem ser executados os seguintes comandos:
 ## Instalando as dependências e construindo as aplicações
 
 ```
-- $ npm run buildApi
-- $ npm run buildFront
+$ npm run buildApi
+$ npm run buildFront
 ```
 
 ## Iniciando o estágio de produção
 
 ```
-- $ npm run startApi
-- $ npm run startFront
+$ npm run startApi
+$ npm run startFront
 ```
 
 > ## Front-end
