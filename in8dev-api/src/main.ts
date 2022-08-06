@@ -38,7 +38,7 @@ Esta API possui os seguintes recursos:\n
 		.setVersion('1.1')
 		.addTag('Status')
 		.addTag('Users')
-		// .addServer('https://ryokan-production.up.railway.app/')
+		.addServer('https://in8.onrender.com')
 		.addServer('http://localhost:3333')
 		.build();
 
