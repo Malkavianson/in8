@@ -62,19 +62,25 @@ const Registration = ({ getData }) => {
 			};
 			axios
 				.post(Api.userCreate(), newSubscription)
-				.then(getData())
-				.catch(err => console.log(err.message));
+				.then(res => {
+					if (res.status === 201) {
+						getData();
+						toast.success('Cadastro realizado com sucesso', {
+							style: {
+								borderRadius: '1rem',
+								fontSize: '3rem',
+								fontFamily: "'Roboto Regular', Arial",
+							},
+						});
+					} else {
+						getData();
+					}
+				})
+				.catch(err => error(`Email ou telefone já cadastrado\n '${err}'`));
 			data[0].value = '';
 			data[1].value = '';
 			setTelValue('');
 			setDateValue('');
-			toast.success('Cadastro realizado com sucesso', {
-				style: {
-					borderRadius: '1rem',
-					fontSize: '3rem',
-					fontFamily: "'Roboto Regular', Arial",
-				},
-			});
 		}
 	};
 	const [telValue, setTelValue] = useState('');
