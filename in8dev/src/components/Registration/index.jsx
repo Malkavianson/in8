@@ -3,6 +3,7 @@ import { mask, unMask } from 'remask';
 import { useState } from 'react';
 import toast from 'react-hot-toast';
 import axios from 'axios';
+import Api from 'helpers/api';
 
 const error = message => {
 	return toast.error(message, {
@@ -60,7 +61,7 @@ const Registration = ({ getData }) => {
 				telefone: data[3].value,
 			};
 			axios
-				.post('http://localhost:3333/users', newSubscription)
+				.post(Api.userCreate(), newSubscription)
 				.then(getData())
 				.catch(err => console.log(err.message));
 			data[0].value = '';

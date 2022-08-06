@@ -4,11 +4,12 @@ import Registration from 'components/Registration';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import './index.css';
+import Api from 'helpers/api';
 
 const Main = () => {
 	const [database, setDatabase] = useState([]);
 	const getData = () => {
-		axios.get('http://localhost:3333/users').then(res => setDatabase(res.data));
+		axios.get(Api.usersList()).then(res => setDatabase(res.data));
 	};
 	useEffect(() => {
 		getData();

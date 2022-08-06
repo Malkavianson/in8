@@ -5,7 +5,7 @@
 	"main": "./in8dev/src/index.jsx",
 	"scripts": {
 		"buildApi": "cd in8dev-api && npm i && npm run build",
-		"buildFront": "cd in8dev && npm i",
+		"buildFront": "cd in8dev && npm i && npm run build",
 		"startApi": "cd in8dev-api && node dist/main",
 		"startFront": "cd in8dev && npm start"
 	},
