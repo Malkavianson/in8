@@ -29,7 +29,7 @@
 }
 @media (min-width: 600px) and (max-width: 1024px) {
 	#Lander__Container {
-		aspect-ratio: 2.04;
+		aspect-ratio: 1.64;
 		background-image: url('../../assets/images/index-image.jpg');
 		background-size: cover;
 	}
