@@ -1,12 +1,12 @@
-# [Landing page IN8DEV](https://in8.herokuapp.com/)
+# [Landing page IN8DEV](https://in8dev.vercel.app)
 
-### Link para aplicação [in8.herokuapp.com](https://in8.herokuapp.com)
+### Link para aplicação [https://in8dev.vercel.app](https://in8dev.vercel.app)
 
 ### Tecnologias aplicadas
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
-![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 ### Pré-requisitos
 
@@ -21,6 +21,12 @@ $ npm install
 
 ## Executando o projeto
 
+### Montagem
+
+```
+npm run Build
+```
+
 ### Produção
 
 ```
@@ -33,7 +39,7 @@ Acesse [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu 
 
 > #### Página criada com o para testagem de aptidão no processo seletivo da empresa IN8.
 >
-> Para esta aplicação foi desenvolvida uma SPA que cadastra dados e transmite seus dados para uma API e recebe os respectivos dados para exibí-los como componente.
+> Para esta aplicação foi desenvolvida uma SPA que cadastra dados e transmite seus dados para uma [API](https://in8.onrender.com/) e recebe os seus respectivos dados para exibí-los como componente.
 
 ### Autor
 

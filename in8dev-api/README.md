@@ -1,12 +1,14 @@
-# [NEST API Ryokan]('https://ryokan-production.up.railway.app')
+# [NEST API IN8DEV]('https://in8.onrender.com')
 
-#### API em NEST para fins de aprendizagem
+### Link para aplicação [https://in8.onrender.com](https://in8.onrender.com)
 
-![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+#### API em NEST para atestagem de aptidão
+
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
 
-Para esta aplicação foi desenvolvida uma API que administra dados de cadastro da landing page IN8
+Para esta aplicação foi desenvolvida uma API que administra dados de cadastro da landing page IN8DEV
 Este apresenta fundamentos em NestJS e Prisma.
 
 ## Pré-requisitos
@@ -28,6 +30,12 @@ $ npm install
 
 ## Executando o projeto
 
+### Montagem
+
+```
+npm run Build
+```
+
 ### Produção
 
 ```
@@ -41,6 +49,7 @@ npm run dev
 ```
 
 Para conseguir trabalhar com o banco de dados você deverá criar um arquivo .env e adicionar uma url de conexão com seu Postgres local com a chave DATABASE_URL.
+Exemplo:
 
 ```
 DATABASE_URL="postgresql://yourUser:0000000@localhost:PORT/database"
@@ -64,12 +73,12 @@ Acesse [http://localhost:3333](http://localhost:3333) para visualizá-lo em seu 
 
 ## Funcionalidades
 
-Para acessar a lista de endpoints e funcionalidades da aplicação, acesse nossa documentação do Swagger, lá você poderá testar todas as rotas.
+Para acessar a lista de endpoints e funcionalidades da aplicação, acesse a documentação do [Swagger](https://in8.onrender.com/docs#/), lá você poderá testar todas as rotas.
 
 > ## comandos úteis:
 >
-> > - npx prisma generate atualiza o módulo pris
-> > - npx prisma db push
+> > - npx prisma generate - Atualiza o módulo prisma
+> > - npx prisma db push - Atualiza a tabela do banco de dados
 >
 > ---
 
