@@ -20,7 +20,7 @@ Este apresenta fundamentos em NestJS e Prisma.
 
 ## Scripts disponíveis
 
-Na pasta raíz do projeto podem ser executados os seguintes comandos:
+Na pasta raiz do projeto podem ser executados os seguintes comandos:
 
 ## Instalando as dependências:
 

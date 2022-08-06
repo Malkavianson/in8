@@ -36,9 +36,9 @@ Neste repositório estão incluídos
 
 ---
 
-### Utilização direta à partir da pasta raíz deste repositório
+### Utilização direta à partir da pasta raiz deste repositório
 
-Na pasta raíz do projeto podem ser executados os seguintes comandos:
+Na pasta raiz do projeto podem ser executados os seguintes comandos:
 
 ## Instalando as dependências e construindo as aplicações
 
