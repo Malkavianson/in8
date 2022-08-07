@@ -82,9 +82,7 @@ $ npm run startFront
 >
 > - Acesse [http://localhost:3333](http://localhost:3333) para visualizá-lo em seu navegador de forma local
 >
-> ## Funcionalidades
->
-> Para acessar a lista de endpoints e funcionalidades da aplicação, acesse a documentação do [Swagger](https://in8.onrender.com/docs#/), lá você poderá testar todas as rotas.
+> Você pode acessar a lista de endpoints e funcionalidades da aplicação em [Swagger](https://in8.onrender.com/docs#/), lá é possível testar todas as rotas.
 
 > ## Autor
 >
