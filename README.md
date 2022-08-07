@@ -37,9 +37,9 @@ Neste repositório estão incluídos
 - **PostgreSQL** com versão superior ou igual que 8.2.6 - [PostgreSQL Download](https://www.postgresql.org/download/)
 
 ### Instruções de uso.
-
-- git clone https://github.com/Malkavianson/in8.git
-
+```
+$ git clone https://github.com/Malkavianson/in8.git
+```
 ---
 
 > #### As aplicações podem ser utilizadas de forma conjunta ou separada
