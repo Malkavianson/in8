@@ -88,4 +88,8 @@ export class UsersService {
 			select: { nome: true, email: true },
 		});
 	}
+
+	async removeAll() {
+		return await this.prisma.user.deleteMany({});
+	}
 }
